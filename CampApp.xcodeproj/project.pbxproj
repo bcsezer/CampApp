@@ -7,15 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0DB27C2EE64D2F95AC8C6EF /* Pods_CampApp_CampAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7D0460B6E043EA77E72844 /* Pods_CampApp_CampAppUITests.framework */; };
+		B2BB7D09290429FC0020F3D9 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D08290429FB0020F3D9 /* CustomAnnotation.swift */; };
+		B2BB7D0C29042CF90020F3D9 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2BB7D0B29042CF90020F3D9 /* CardView.xib */; };
+		B2BB7D0E29042D020020F3D9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D0D29042D020020F3D9 /* CardView.swift */; };
+		B2BB7D1929057D740020F3D9 /* SelectedCampDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1329057D740020F3D9 /* SelectedCampDetailPresenter.swift */; };
+		B2BB7D1A29057D740020F3D9 /* SelectedCampDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1429057D740020F3D9 /* SelectedCampDetailRouter.swift */; };
+		B2BB7D1B29057D740020F3D9 /* SelectedCampDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1529057D740020F3D9 /* SelectedCampDetailModels.swift */; };
+		B2BB7D1C29057D740020F3D9 /* SelectedCampDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1629057D740020F3D9 /* SelectedCampDetailViewController.swift */; };
+		B2BB7D1D29057D740020F3D9 /* SelectedCampDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1729057D740020F3D9 /* SelectedCampDetailInteractor.swift */; };
+		B2BB7D1E29057D740020F3D9 /* SelectedCampDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2BB7D1829057D740020F3D9 /* SelectedCampDetailView.xib */; };
+		B2BB7D20290580F60020F3D9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D1F290580F60020F3D9 /* UIView+Extensions.swift */; };
+		B2BB7D23290583350020F3D9 /* AccommodationTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB7D22290583350020F3D9 /* AccommodationTypes.swift */; };
 		B2F287C529015AB9007B4B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287C429015AB9007B4B7A /* AppDelegate.swift */; };
 		B2F287C729015AB9007B4B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287C629015AB9007B4B7A /* SceneDelegate.swift */; };
-		B2F287C929015AB9007B4B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287C829015AB9007B4B7A /* ViewController.swift */; };
-		B2F287CC29015AB9007B4B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F287CA29015AB9007B4B7A /* Main.storyboard */; };
 		B2F287CE29015ABB007B4B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F287CD29015ABB007B4B7A /* Assets.xcassets */; };
-		B2F287D129015ABB007B4B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F287CF29015ABB007B4B7A /* LaunchScreen.storyboard */; };
 		B2F287DC29015ABB007B4B7A /* CampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287DB29015ABB007B4B7A /* CampAppTests.swift */; };
 		B2F287E629015ABB007B4B7A /* CampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287E529015ABB007B4B7A /* CampAppUITests.swift */; };
 		B2F287E829015ABB007B4B7A /* CampAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287E729015ABB007B4B7A /* CampAppUITestsLaunchTests.swift */; };
+		B2F287F629015B35007B4B7A /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = B2F287F529015B35007B4B7A /* places.json */; };
+		B2F2880029015CFC007B4B7A /* HomePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287FA29015CFC007B4B7A /* HomePagePresenter.swift */; };
+		B2F2880129015CFC007B4B7A /* HomePageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287FB29015CFC007B4B7A /* HomePageRouter.swift */; };
+		B2F2880229015CFC007B4B7A /* HomePageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287FC29015CFC007B4B7A /* HomePageModels.swift */; };
+		B2F2880329015CFC007B4B7A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287FD29015CFC007B4B7A /* HomePageViewController.swift */; };
+		B2F2880429015CFC007B4B7A /* HomePageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F287FE29015CFC007B4B7A /* HomePageInteractor.swift */; };
+		B2F2880529015CFC007B4B7A /* HomePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F287FF29015CFC007B4B7A /* HomePageView.xib */; };
+		B2F2880C29015EA8007B4B7A /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2880929015EA8007B4B7A /* Images.swift */; };
+		B2F2880D29015EA8007B4B7A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2880A29015EA8007B4B7A /* Colors.swift */; };
+		B2F2881229015EB7007B4B7A /* StylesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881029015EB6007B4B7A /* StylesHelper.swift */; };
+		B2F2881329015EB7007B4B7A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881129015EB7007B4B7A /* Styles.swift */; };
+		B2F2881629015EFC007B4B7A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881529015EFC007B4B7A /* Color+Extensions.swift */; };
+		B2F2881829015F0C007B4B7A /* TableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881729015F0C007B4B7A /* TableView+Extensions.swift */; };
+		B2F2881A29015F24007B4B7A /* ImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881929015F24007B4B7A /* ImageView+Extensions.swift */; };
+		B2F2881F2901626D007B4B7A /* PlaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2881E2901626D007B4B7A /* PlaceEntity.swift */; };
+		B2F2882129016275007B4B7A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F2882029016275007B4B7A /* PlaceModel.swift */; };
+		B2F288232901628B007B4B7A /* GetPlacesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F288222901628B007B4B7A /* GetPlacesFetcher.swift */; };
+		B2F288282901EB46007B4B7A /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F288272901EB46007B4B7A /* ViewControllerFactory.swift */; };
+		D405E421850A35F206C4E9CA /* Pods_CampApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D43AB1FDDDB674704F4A49 /* Pods_CampApp.framework */; };
+		F942798D8894E1913C242C46 /* Pods_CampAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1842C87D573A14F80BE787 /* Pods_CampAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +65,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114109C6DC4C05EA5D9C21A1 /* Pods-CampApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampApp.debug.xcconfig"; path = "Target Support Files/Pods-CampApp/Pods-CampApp.debug.xcconfig"; sourceTree = "<group>"; };
+		17D43AB1FDDDB674704F4A49 /* Pods_CampApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1931E4A35268573C55E085B7 /* Pods-CampApp-CampAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampApp-CampAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CampApp-CampAppUITests/Pods-CampApp-CampAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57EB37BEDE0B40C3A60054E9 /* Pods-CampAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CampAppTests/Pods-CampAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1842C87D573A14F80BE787 /* Pods_CampAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4BDDF0E912B2EF2A4EC95 /* Pods-CampApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampApp.release.xcconfig"; path = "Target Support Files/Pods-CampApp/Pods-CampApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A8CE0DEFE1F4A2364178A3C /* Pods-CampAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampAppTests.release.xcconfig"; path = "Target Support Files/Pods-CampAppTests/Pods-CampAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A7D0460B6E043EA77E72844 /* Pods_CampApp_CampAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampApp_CampAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BB7D08290429FB0020F3D9 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		B2BB7D0B29042CF90020F3D9 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		B2BB7D0D29042D020020F3D9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B2BB7D1329057D740020F3D9 /* SelectedCampDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCampDetailPresenter.swift; sourceTree = "<group>"; };
+		B2BB7D1429057D740020F3D9 /* SelectedCampDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCampDetailRouter.swift; sourceTree = "<group>"; };
+		B2BB7D1529057D740020F3D9 /* SelectedCampDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCampDetailModels.swift; sourceTree = "<group>"; };
+		B2BB7D1629057D740020F3D9 /* SelectedCampDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCampDetailViewController.swift; sourceTree = "<group>"; };
+		B2BB7D1729057D740020F3D9 /* SelectedCampDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCampDetailInteractor.swift; sourceTree = "<group>"; };
+		B2BB7D1829057D740020F3D9 /* SelectedCampDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedCampDetailView.xib; sourceTree = "<group>"; };
+		B2BB7D1F290580F60020F3D9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		B2BB7D22290583350020F3D9 /* AccommodationTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationTypes.swift; sourceTree = "<group>"; };
 		B2F287C129015AB9007B4B7A /* CampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F287C429015AB9007B4B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2F287C629015AB9007B4B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2F287C829015AB9007B4B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2F287CB29015AB9007B4B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2F287CD29015ABB007B4B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B2F287D029015ABB007B4B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2F287D229015ABB007B4B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2F287D729015ABB007B4B7A /* CampAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F287DB29015ABB007B4B7A /* CampAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampAppTests.swift; sourceTree = "<group>"; };
 		B2F287E129015ABB007B4B7A /* CampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F287E529015ABB007B4B7A /* CampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampAppUITests.swift; sourceTree = "<group>"; };
 		B2F287E729015ABB007B4B7A /* CampAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2F287F529015B35007B4B7A /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		B2F287FA29015CFC007B4B7A /* HomePagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePresenter.swift; sourceTree = "<group>"; };
+		B2F287FB29015CFC007B4B7A /* HomePageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageRouter.swift; sourceTree = "<group>"; };
+		B2F287FC29015CFC007B4B7A /* HomePageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModels.swift; sourceTree = "<group>"; };
+		B2F287FD29015CFC007B4B7A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		B2F287FE29015CFC007B4B7A /* HomePageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageInteractor.swift; sourceTree = "<group>"; };
+		B2F287FF29015CFC007B4B7A /* HomePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageView.xib; sourceTree = "<group>"; };
+		B2F2880929015EA8007B4B7A /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		B2F2880A29015EA8007B4B7A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B2F2881029015EB6007B4B7A /* StylesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylesHelper.swift; sourceTree = "<group>"; };
+		B2F2881129015EB7007B4B7A /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		B2F2881529015EFC007B4B7A /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		B2F2881729015F0C007B4B7A /* TableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Extensions.swift"; sourceTree = "<group>"; };
+		B2F2881929015F24007B4B7A /* ImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Extensions.swift"; sourceTree = "<group>"; };
+		B2F2881E2901626D007B4B7A /* PlaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceEntity.swift; sourceTree = "<group>"; };
+		B2F2882029016275007B4B7A /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		B2F288222901628B007B4B7A /* GetPlacesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlacesFetcher.swift; sourceTree = "<group>"; };
+		B2F288272901EB46007B4B7A /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		EC929DB281E7F06C193C8B63 /* Pods-CampApp-CampAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampApp-CampAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CampApp-CampAppUITests/Pods-CampApp-CampAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D405E421850A35F206C4E9CA /* Pods_CampApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F942798D8894E1913C242C46 /* Pods_CampAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +136,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DB27C2EE64D2F95AC8C6EF /* Pods_CampApp_CampAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12A347D81103F47BB5098D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D43AB1FDDDB674704F4A49 /* Pods_CampApp.framework */,
+				9A7D0460B6E043EA77E72844 /* Pods_CampApp_CampAppUITests.framework */,
+				6B1842C87D573A14F80BE787 /* Pods_CampAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		135298C582336DB27F979508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				114109C6DC4C05EA5D9C21A1 /* Pods-CampApp.debug.xcconfig */,
+				6CD4BDDF0E912B2EF2A4EC95 /* Pods-CampApp.release.xcconfig */,
+				1931E4A35268573C55E085B7 /* Pods-CampApp-CampAppUITests.debug.xcconfig */,
+				EC929DB281E7F06C193C8B63 /* Pods-CampApp-CampAppUITests.release.xcconfig */,
+				57EB37BEDE0B40C3A60054E9 /* Pods-CampAppTests.debug.xcconfig */,
+				8A8CE0DEFE1F4A2364178A3C /* Pods-CampAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2BB7D07290429F00020F3D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D0A29042CE70020F3D9 /* CardView */,
+				B2BB7D08290429FB0020F3D9 /* CustomAnnotation.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2BB7D0A29042CE70020F3D9 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D0B29042CF90020F3D9 /* CardView.xib */,
+				B2BB7D0D29042D020020F3D9 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		B2BB7D21290582F80020F3D9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D22290583350020F3D9 /* AccommodationTypes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		B2F287B829015AB9007B4B7A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +199,8 @@
 				B2F287DA29015ABB007B4B7A /* CampAppTests */,
 				B2F287E429015ABB007B4B7A /* CampAppUITests */,
 				B2F287C229015AB9007B4B7A /* Products */,
+				135298C582336DB27F979508 /* Pods */,
+				12A347D81103F47BB5098D4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +217,17 @@
 		B2F287C329015AB9007B4B7A /* CampApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2F288262901EB35007B4B7A /* ViewControllerFactory */,
+				B2F2881D29016253007B4B7A /* Fetcher */,
+				B2F2881C29016249007B4B7A /* Models */,
+				B2F2881B29016234007B4B7A /* Entities */,
+				B2F2881429015EE7007B4B7A /* Extensions */,
+				B2F2880829015E9D007B4B7A /* Constants */,
+				B2F287F429015AD2007B4B7A /* Data */,
+				B2F287F729015B45007B4B7A /* Screens */,
 				B2F287C429015AB9007B4B7A /* AppDelegate.swift */,
 				B2F287C629015AB9007B4B7A /* SceneDelegate.swift */,
-				B2F287C829015AB9007B4B7A /* ViewController.swift */,
-				B2F287CA29015AB9007B4B7A /* Main.storyboard */,
 				B2F287CD29015ABB007B4B7A /* Assets.xcassets */,
-				B2F287CF29015ABB007B4B7A /* LaunchScreen.storyboard */,
 				B2F287D229015ABB007B4B7A /* Info.plist */,
 			);
 			path = CampApp;
@@ -127,6 +250,113 @@
 			path = CampAppUITests;
 			sourceTree = "<group>";
 		};
+		B2F287F429015AD2007B4B7A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D21290582F80020F3D9 /* Enums */,
+				B2F287F529015B35007B4B7A /* places.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B2F287F729015B45007B4B7A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B2F287F829015B54007B4B7A /* Home */,
+				B2F287F929015B5B007B4B7A /* CampDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B2F287F829015B54007B4B7A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D07290429F00020F3D9 /* Views */,
+				B2F287FE29015CFC007B4B7A /* HomePageInteractor.swift */,
+				B2F287FC29015CFC007B4B7A /* HomePageModels.swift */,
+				B2F287FA29015CFC007B4B7A /* HomePagePresenter.swift */,
+				B2F287FB29015CFC007B4B7A /* HomePageRouter.swift */,
+				B2F287FF29015CFC007B4B7A /* HomePageView.xib */,
+				B2F287FD29015CFC007B4B7A /* HomePageViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B2F287F929015B5B007B4B7A /* CampDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B2BB7D1729057D740020F3D9 /* SelectedCampDetailInteractor.swift */,
+				B2BB7D1529057D740020F3D9 /* SelectedCampDetailModels.swift */,
+				B2BB7D1329057D740020F3D9 /* SelectedCampDetailPresenter.swift */,
+				B2BB7D1429057D740020F3D9 /* SelectedCampDetailRouter.swift */,
+				B2BB7D1829057D740020F3D9 /* SelectedCampDetailView.xib */,
+				B2BB7D1629057D740020F3D9 /* SelectedCampDetailViewController.swift */,
+			);
+			path = CampDetail;
+			sourceTree = "<group>";
+		};
+		B2F2880829015E9D007B4B7A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2880F29015EAD007B4B7A /* Styles */,
+				B2F2880A29015EA8007B4B7A /* Colors.swift */,
+				B2F2880929015EA8007B4B7A /* Images.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B2F2880F29015EAD007B4B7A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2881129015EB7007B4B7A /* Styles.swift */,
+				B2F2881029015EB6007B4B7A /* StylesHelper.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B2F2881429015EE7007B4B7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2881529015EFC007B4B7A /* Color+Extensions.swift */,
+				B2F2881729015F0C007B4B7A /* TableView+Extensions.swift */,
+				B2F2881929015F24007B4B7A /* ImageView+Extensions.swift */,
+				B2BB7D1F290580F60020F3D9 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2F2881B29016234007B4B7A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2881E2901626D007B4B7A /* PlaceEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B2F2881C29016249007B4B7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2882029016275007B4B7A /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B2F2881D29016253007B4B7A /* Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				B2F288222901628B007B4B7A /* GetPlacesFetcher.swift */,
+			);
+			path = Fetcher;
+			sourceTree = "<group>";
+		};
+		B2F288262901EB35007B4B7A /* ViewControllerFactory */ = {
+			isa = PBXGroup;
+			children = (
+				B2F288272901EB46007B4B7A /* ViewControllerFactory.swift */,
+			);
+			path = ViewControllerFactory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F287EB29015ABB007B4B7A /* Build configuration list for PBXNativeTarget "CampApp" */;
 			buildPhases = (
+				D42CC6EBEECBFB7B2C15882E /* [CP] Check Pods Manifest.lock */,
 				B2F287BD29015AB9007B4B7A /* Sources */,
 				B2F287BE29015AB9007B4B7A /* Frameworks */,
 				B2F287BF29015AB9007B4B7A /* Resources */,
+				63DD6CB197FA0F595AA21943 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +383,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F287EE29015ABB007B4B7A /* Build configuration list for PBXNativeTarget "CampAppTests" */;
 			buildPhases = (
+				C95910EA166AAEBFB5CF867F /* [CP] Check Pods Manifest.lock */,
 				B2F287D329015ABB007B4B7A /* Sources */,
 				B2F287D429015ABB007B4B7A /* Frameworks */,
 				B2F287D529015ABB007B4B7A /* Resources */,
@@ -169,9 +402,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2F287F129015ABB007B4B7A /* Build configuration list for PBXNativeTarget "CampAppUITests" */;
 			buildPhases = (
+				B3D39C76005E3754DF61DC62 /* [CP] Check Pods Manifest.lock */,
 				B2F287DD29015ABB007B4B7A /* Sources */,
 				B2F287DE29015ABB007B4B7A /* Frameworks */,
 				B2F287DF29015ABB007B4B7A /* Resources */,
+				5AB895111B4939596D3DE798 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +466,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F287D129015ABB007B4B7A /* LaunchScreen.storyboard in Resources */,
 				B2F287CE29015ABB007B4B7A /* Assets.xcassets in Resources */,
-				B2F287CC29015AB9007B4B7A /* Main.storyboard in Resources */,
+				B2F2880529015CFC007B4B7A /* HomePageView.xib in Resources */,
+				B2BB7D0C29042CF90020F3D9 /* CardView.xib in Resources */,
+				B2F287F629015B35007B4B7A /* places.json in Resources */,
+				B2BB7D1E29057D740020F3D9 /* SelectedCampDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +490,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AB895111B4939596D3DE798 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampApp-CampAppUITests/Pods-CampApp-CampAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampApp-CampAppUITests/Pods-CampApp-CampAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampApp-CampAppUITests/Pods-CampApp-CampAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63DD6CB197FA0F595AA21943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampApp/Pods-CampApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CampApp/Pods-CampApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CampApp/Pods-CampApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D39C76005E3754DF61DC62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampApp-CampAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95910EA166AAEBFB5CF867F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42CC6EBEECBFB7B2C15882E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CampApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2F287BD29015AB9007B4B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F287C929015AB9007B4B7A /* ViewController.swift in Sources */,
+				B2F2880029015CFC007B4B7A /* HomePagePresenter.swift in Sources */,
+				B2F2881229015EB7007B4B7A /* StylesHelper.swift in Sources */,
+				B2BB7D1D29057D740020F3D9 /* SelectedCampDetailInteractor.swift in Sources */,
+				B2F2882129016275007B4B7A /* PlaceModel.swift in Sources */,
+				B2BB7D09290429FC0020F3D9 /* CustomAnnotation.swift in Sources */,
+				B2F2881329015EB7007B4B7A /* Styles.swift in Sources */,
+				B2F288232901628B007B4B7A /* GetPlacesFetcher.swift in Sources */,
+				B2F2881829015F0C007B4B7A /* TableView+Extensions.swift in Sources */,
+				B2F288282901EB46007B4B7A /* ViewControllerFactory.swift in Sources */,
+				B2F2881A29015F24007B4B7A /* ImageView+Extensions.swift in Sources */,
+				B2BB7D1B29057D740020F3D9 /* SelectedCampDetailModels.swift in Sources */,
+				B2F2880D29015EA8007B4B7A /* Colors.swift in Sources */,
+				B2F2880329015CFC007B4B7A /* HomePageViewController.swift in Sources */,
+				B2F2880229015CFC007B4B7A /* HomePageModels.swift in Sources */,
+				B2BB7D1C29057D740020F3D9 /* SelectedCampDetailViewController.swift in Sources */,
+				B2F2881629015EFC007B4B7A /* Color+Extensions.swift in Sources */,
+				B2F2880C29015EA8007B4B7A /* Images.swift in Sources */,
+				B2BB7D0E29042D020020F3D9 /* CardView.swift in Sources */,
+				B2BB7D20290580F60020F3D9 /* UIView+Extensions.swift in Sources */,
+				B2BB7D1A29057D740020F3D9 /* SelectedCampDetailRouter.swift in Sources */,
+				B2BB7D1929057D740020F3D9 /* SelectedCampDetailPresenter.swift in Sources */,
+				B2BB7D23290583350020F3D9 /* AccommodationTypes.swift in Sources */,
+				B2F2880429015CFC007B4B7A /* HomePageInteractor.swift in Sources */,
 				B2F287C529015AB9007B4B7A /* AppDelegate.swift in Sources */,
+				B2F2880129015CFC007B4B7A /* HomePageRouter.swift in Sources */,
+				B2F2881F2901626D007B4B7A /* PlaceEntity.swift in Sources */,
 				B2F287C729015AB9007B4B7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +659,6 @@
 			targetProxy = B2F287E229015ABB007B4B7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B2F287CA29015AB9007B4B7A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2F287CB29015AB9007B4B7A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B2F287CF29015ABB007B4B7A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2F287D029015ABB007B4B7A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B2F287E929015ABB007B4B7A /* Debug */ = {
@@ -432,6 +777,7 @@
 		};
 		B2F287EC29015ABB007B4B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114109C6DC4C05EA5D9C21A1 /* Pods-CampApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,10 +787,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = HomePageView.xi;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +806,7 @@
 		};
 		B2F287ED29015ABB007B4B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD4BDDF0E912B2EF2A4EC95 /* Pods-CampApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,10 +816,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CampApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = HomePageView.xi;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +835,7 @@
 		};
 		B2F287EF29015ABB007B4B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EB37BEDE0B40C3A60054E9 /* Pods-CampAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +856,7 @@
 		};
 		B2F287F029015ABB007B4B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8CE0DEFE1F4A2364178A3C /* Pods-CampAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +877,7 @@
 		};
 		B2F287F229015ABB007B4B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1931E4A35268573C55E085B7 /* Pods-CampApp-CampAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +896,7 @@
 		};
 		B2F287F329015ABB007B4B7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC929DB281E7F06C193C8B63 /* Pods-CampApp-CampAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
