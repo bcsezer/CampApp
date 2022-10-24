@@ -22,6 +22,9 @@ class SelectedCampDetailViewController: UIViewController, SelectedCampDetailDisp
     @IBOutlet weak var imageSlider: ImageSlideshow!
     @IBOutlet private weak var descLAbel: UILabel!
     @IBOutlet private weak var adressLabel: UILabel!
+    @IBOutlet private weak var cityLabel: UILabel!
+    @IBOutlet private weak var dateLabel: UILabel!
+    @IBOutlet private weak var priceLabel: UILabel!
     
     private var url: String = ""
 
@@ -55,12 +58,17 @@ class SelectedCampDetailViewController: UIViewController, SelectedCampDetailDisp
     func display(viewModel: SelectedCampDetail.CampDetail.ViewModel) {
         imageSlider.isHidden = viewModel.place.images.isEmpty
         
+        print(viewModel.place.images)
+        
         if !viewModel.place.images.isEmpty {
             sliderSetup(images: viewModel.place.images)
         }
         
         adressLabel.text = viewModel.place.formattedAddress
         descLAbel.text = viewModel.place.description
+        cityLabel.text = viewModel.place.country
+        dateLabel.text = viewModel.place.lastModifiedDate
+        priceLabel.text = "\(viewModel.place.fromPrice) - \(viewModel.place.fromPrice) \(viewModel.place.currency)"
         
         shareView.isHidden = !(viewModel.place.deepLink != "")
         self.url = viewModel.place.deepLink

@@ -170,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				B2BB7D0A29042CE70020F3D9 /* CardView */,
-				B2BB7D08290429FB0020F3D9 /* CustomAnnotation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				B2F2882029016275007B4B7A /* PlaceModel.swift */,
+				B2BB7D08290429FB0020F3D9 /* CustomAnnotation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";

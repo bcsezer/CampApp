@@ -89,7 +89,7 @@ class CardView: UIView {
         self.placeEntity = data
         
         self.titleLabel.text = placeEntity?.title
-        self.priceLabel.text = "Price \(data.fromPrice) - \(data.toPrice)"
+        self.priceLabel.text = "Price:\(data.fromPrice) - \(data.toPrice) \(data.currency)"
         self.petIcon.isHidden = !data.petsAllowed
         self.electricIcon.isHidden = !data.hasElectricity
         self.cardImage.setImage(imgUrl: data.coverImage)
