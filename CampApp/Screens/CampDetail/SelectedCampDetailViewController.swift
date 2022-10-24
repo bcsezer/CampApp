@@ -3,11 +3,12 @@
 //  CampApp
 //
 //  Created by cem sezeroglu on 23.10.2022.
-//  Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
+
 //
 
 import UIKit
 import ImageSlideshow
+import SDWebImage
 
 protocol SelectedCampDetailDisplayLogic: AnyObject {
     func display(viewModel: SelectedCampDetail.CampDetail.ViewModel)
@@ -35,7 +36,8 @@ class SelectedCampDetailViewController: UIViewController, SelectedCampDetailDisp
     }
 
     private func sliderSetup(images: [String]) {
-        let images: [InputSource] = []
+        var imageSDWebImageSrc = [SDWebImageSource]()
+        
         imageSlider.slideshowInterval = 7.0
         imageSlider.pageIndicatorPosition = .init(horizontal: .center, vertical: .under)
         imageSlider.contentScaleMode = UIViewContentMode.scaleAspectFit
@@ -44,7 +46,12 @@ class SelectedCampDetailViewController: UIViewController, SelectedCampDetailDisp
         pageControl.currentPageIndicatorTintColor = Colors.brownColor
         pageControl.pageIndicatorTintColor = Colors.greenColor
         imageSlider.pageIndicator = pageControl
-        imageSlider.setImageInputs(images)
+        
+        images.forEach { image in
+            imageSDWebImageSrc.append(SDWebImageSource(urlString: image)!)
+        }
+        
+        imageSlider.setImageInputs(imageSDWebImageSrc)
         imageSlider.activityIndicator = DefaultActivityIndicator()
         
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(didTap))
@@ -57,13 +64,7 @@ class SelectedCampDetailViewController: UIViewController, SelectedCampDetailDisp
     
     func display(viewModel: SelectedCampDetail.CampDetail.ViewModel) {
         imageSlider.isHidden = viewModel.place.images.isEmpty
-        
-        print(viewModel.place.images)
-        
-        if !viewModel.place.images.isEmpty {
-            sliderSetup(images: viewModel.place.images)
-        }
-        
+        sliderSetup(images: viewModel.place.images)
         adressLabel.text = viewModel.place.formattedAddress
         descLAbel.text = viewModel.place.description
         cityLabel.text = viewModel.place.country

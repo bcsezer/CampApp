@@ -26,11 +26,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/05d02357-d6cf-4916-893c-c5de4e32ba66/a20031b4-898e-4e30-96c7-55bee078e667_blob",
           "images":[
-             {
-                "id":"5622adc5-4cd4-4ff0-8f44-84ae11cfcbb5",
-                "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/05d02357-d6cf-4916-893c-c5de4e32ba66/794331e9-1531-473e-8222-41dc18b5549f_g1krvci-jpeg",
-                "order":0
-             }
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -106,7 +116,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/0ac65a89-2ca5-42e7-87fe-8a4055d5781c/f835fa65-cf20-4ba2-bd66-99e8738e2bb6_imglogosquare",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -174,7 +198,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/0ad37187-7597-4679-a99d-b7527b8b4b1f/0571c73b-b507-406e-a706-46831279540f_blob",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -376,7 +414,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/107a53bf-f980-49f0-ad1e-b4df095f948d/df5c2cb7-c587-4330-8548-3251dc8c3f72_camping-by-a-lake-in-finland-in-the-summer",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -462,7 +514,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/11179dcd-4f7f-4104-9aff-1c8b8d13118a/77373fdc-d842-482b-b3ef-13fc03d9572f_screenshot-2022-02-01-at-09-56-32",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -522,7 +588,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/124b2472-624e-4468-aad3-91a2fa7649dd/8f1096b3-c23e-4495-a716-3a354fb718a9_blob",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -589,7 +669,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/12598ea8-9705-4f78-b8f1-d4f262ac6381/3b240dfb-0e79-4313-b6f3-c84eebd2e696_img-4077-2",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -726,7 +820,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/20d5e859-2f65-4cf4-94a1-6c56078ad9f6/91ecffc4-aec5-4faf-bd1f-9e62cc9f3c15_screenshot-2022-03-15-at-22-26-08",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -784,7 +892,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/21d48dd5-e076-4478-839a-0e403bebbd5f/9d4806d5-a417-457d-812f-1eb366e0d046_img-1101",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              
@@ -919,7 +1041,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/24ba5cc8-d9a7-4676-9fff-7dd9e9ea17a3/da940daa-e66d-47f4-b2ec-6e0f988cea1f_blob",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -971,7 +1107,21 @@
           "currency":"DKK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/339be9d6-3481-4d26-9f2f-7c0e57ee6159/1659804f-a744-4325-980e-d287f02a12d0_screenshot-2022-05-18-at-17-58-1",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              
@@ -1010,7 +1160,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/341cae1e-0829-41b5-92b5-79a726a58ce4/4cd2d0e1-ab0f-48a4-a9f0-427be8e4c9ea_bd82c480-9cf0-41d5-b64e-e5cee3136947",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {
@@ -1416,7 +1580,21 @@
           "currency":"SEK",
           "coverImage":"https://storage.googleapis.com/acamp-stage/properties/44cd8801-c589-40a5-97df-132558387e8c/1e8ba62f-f0a4-4f78-a708-a3060df1acd8_blob",
           "images":[
-             
+              {
+                 "id":"22e99f17-8fc0-4890-97cb-092583bd6bef",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/a681c097-2ecc-46cc-be10-b5e8b74d85c4_ic-message-active-jpeg",
+                 "order":2
+              },
+              {
+                 "id":"23d7791e-cb10-4ee1-8335-b43d5718d39e",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/9d9c4d8e-5817-44d6-b7a8-436edf1b1e35_40.jpeg",
+                 "order":1
+              },
+              {
+                 "id":"2ad3683f-d526-4f3b-9a41-0024620612e5",
+                 "imageUrl":"https://storage.googleapis.com/acamp-stage/properties/0cae152b-625d-42e3-8983-24c2a69d9b17/82ae06da-7f29-47b1-b358-29252e67471a_60.jpeg",
+                 "order":0
+              }
           ],
           "amenities":[
              {

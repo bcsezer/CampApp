@@ -21,9 +21,10 @@ class GetPlacesFetcher {
         for place in places ?? [] {
             
             guard place.isActive == true else { continue }
+            images.removeAll()
             
             place.images?.forEach({ image in
-                images.append(image.imageURL ?? "")
+                images.append(image.imageUrl ?? "")
             })
             
             placeEntity.append(

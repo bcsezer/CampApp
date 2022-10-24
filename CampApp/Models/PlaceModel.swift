@@ -40,7 +40,7 @@ struct Amenity: Codable {
 
 struct Image: Codable {
     let id: String?
-    let imageURL: String?
+    let imageUrl: String?
     let order: Int?
 }
 
