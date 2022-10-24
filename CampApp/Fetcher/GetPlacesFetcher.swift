@@ -16,9 +16,11 @@ class GetPlacesFetcher {
         
         guard let data = readLocalJSONFile(forName: "places") else { return nil }
         
-        let places = parse(jsonData: data)?.places
+        let places = decode(jsonData: data)?.places
         
         for place in places ?? [] {
+            
+            guard place.isActive == true else { continue }
             
             place.images?.forEach({ image in
                 images.append(image.imageURL ?? "")
@@ -27,7 +29,6 @@ class GetPlacesFetcher {
             placeEntity.append(
                 PlaceEntity(
                     title: place.title ?? "",
-                    isActive: place.isActive ?? false,
                     images: images,
                     city: place.city ?? "",
                     country: place.country ?? "",
@@ -43,7 +44,8 @@ class GetPlacesFetcher {
                     description: place.placeDescription ?? "",
                     formattedAddress: place.formattedAddress ?? "",
                     streetAddress: place.streetAddress ?? "",
-                    coverImage: place.coverImage ?? ""
+                    coverImage: place.coverImage ?? "",
+                    deepLink: place.deepLink ?? ""
                 )
             )
         }
@@ -64,7 +66,7 @@ class GetPlacesFetcher {
         return nil
     }
     
-    private func parse(jsonData: Data) -> Places? {
+    private func decode(jsonData: Data) -> Places? {
         do {
             let decodedData = try JSONDecoder().decode(Places.self, from: jsonData)
             return decodedData

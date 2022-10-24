@@ -9,7 +9,6 @@ import Foundation
 
 struct PlaceEntity {
     let title: String
-    let isActive: Bool
     let images: [String]
     let city: String
     let country: String
@@ -26,4 +25,5 @@ struct PlaceEntity {
     let formattedAddress: String
     let streetAddress: String
     let coverImage: String
+    let deepLink: String
 }

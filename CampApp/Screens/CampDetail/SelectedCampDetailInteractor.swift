@@ -3,13 +3,12 @@
 //  CampApp
 //
 //  Created by cem sezeroglu on 23.10.2022.
-//  Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
 //
 
 import UIKit
 
 protocol SelectedCampDetailBusinessLogic {
-    func handle(request: SelectedCampDetail.Something.Request)
+    func handle(request: SelectedCampDetail.CampDetail.Request)
 }
 
 class SelectedCampDetailInteractor: SelectedCampDetailBusinessLogic {
@@ -18,8 +17,11 @@ class SelectedCampDetailInteractor: SelectedCampDetailBusinessLogic {
     
     // MARK: Business Logic
 
-    func handle(request: SelectedCampDetail.Something.Request) {
-        let response = SelectedCampDetail.Something.Response()
-        presenter?.present(response: response)
+    func handle(request: SelectedCampDetail.CampDetail.Request) {
+        guard let selectedPlace = selectedPlace else {
+            presenter?.present(response: SelectedCampDetail.Error.Response())
+            return
+        }
+        presenter?.present(response: SelectedCampDetail.CampDetail.Response(place: selectedPlace))
     }
 }

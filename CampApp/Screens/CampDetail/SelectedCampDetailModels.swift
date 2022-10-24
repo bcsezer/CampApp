@@ -11,7 +11,18 @@ import UIKit
 enum SelectedCampDetail {
     
     // MARK: Use cases
-    enum Something {
+    enum CampDetail {
+        struct Request {
+        }
+        struct Response {
+            let place: PlaceEntity
+        }
+        struct ViewModel {
+            let place: PlaceEntity
+        }
+    }
+    
+    enum Error {
         struct Request {
         }
         struct Response {

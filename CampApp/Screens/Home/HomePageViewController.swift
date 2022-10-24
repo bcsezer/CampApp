@@ -43,11 +43,7 @@ class HomePageViewController: UIViewController, HomePageDisplayLogic {
     // MARK: Requests
 
     func display(viewModel: HomePage.GetData.ViewModel) {
-        diplayLocations(data: viewModel.places)
-    }
-    
-    private func diplayLocations(data: [PlaceEntity]) {
-        for location in data {
+        for location in viewModel.places {
             let anno = CustomAnnotation()
             anno.place = location
             anno.title = location.title
@@ -77,9 +73,9 @@ class HomePageViewController: UIViewController, HomePageDisplayLogic {
 }
 
 extension HomePageViewController: MKMapViewDelegate {
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?
-    {
-        if !(annotation is MKPointAnnotation) {
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        guard annotation is MKPointAnnotation else  {
             return nil
         }
         
@@ -111,6 +107,7 @@ extension HomePageViewController: MKMapViewDelegate {
 
 extension HomePageViewController: CardViewDelegate {
     func didPressView(data: PlaceEntity) {
+        cardView.hide()
         router?.routeToDetail(selectedPlace: data)
     }
 }

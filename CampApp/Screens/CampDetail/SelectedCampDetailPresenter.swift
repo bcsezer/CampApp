@@ -9,7 +9,8 @@
 import UIKit
 
 protocol SelectedCampDetailPresentationLogic {
-    func present(response: SelectedCampDetail.Something.Response)
+    func present(response: SelectedCampDetail.CampDetail.Response)
+    func present(response: SelectedCampDetail.Error.Response)
 }
 
 class SelectedCampDetailPresenter: SelectedCampDetailPresentationLogic {
@@ -17,8 +18,12 @@ class SelectedCampDetailPresenter: SelectedCampDetailPresentationLogic {
 
     // MARK: Presentation Logic
     
-    func present(response: SelectedCampDetail.Something.Response) {
-        let viewModel = SelectedCampDetail.Something.ViewModel()
+    func present(response: SelectedCampDetail.CampDetail.Response) {
+        let viewModel = SelectedCampDetail.CampDetail.ViewModel(place: response.place)
         viewController?.display(viewModel: viewModel)
+    }
+    
+    func present(response: SelectedCampDetail.Error.Response) {
+        viewController?.display(viewModel: SelectedCampDetail.Error.ViewModel())
     }
 }
