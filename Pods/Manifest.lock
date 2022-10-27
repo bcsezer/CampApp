@@ -1,0 +1,28 @@
+PODS:
+  - ImageSlideshow/Core (1.9.2)
+  - ImageSlideshow/SDWebImage (1.9.2):
+    - ImageSlideshow/Core
+    - SDWebImage (>= 3.7)
+  - Kingfisher (7.2.0)
+  - SDWebImage (5.13.4):
+    - SDWebImage/Core (= 5.13.4)
+  - SDWebImage/Core (5.13.4)
+
+DEPENDENCIES:
+  - ImageSlideshow/SDWebImage
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - ImageSlideshow
+    - Kingfisher
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
+
+PODFILE CHECKSUM: 9798cb94af74ad2e1f271dcf35f8876b0e2790ab
+
+COCOAPODS: 1.10.1
